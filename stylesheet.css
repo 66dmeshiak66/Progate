@@ -1,5 +1,7 @@
-* {
-  box-sizing: border-box;
+@media (max-width: 768px) {
+  .lesson {
+    width: 100%;
+  }
 }
 
 body {
@@ -17,10 +19,10 @@ a {
   background-size: cover;
   text-align: center;
   color: white;
-  margin-right: 0;
 }
 
 .container {
+  width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
